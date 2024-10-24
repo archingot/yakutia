@@ -1,0 +1,157 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.a1{
+height: 45%; ;
+width: 30%;
+background-color: rgb(214, 0, 0);
+padding: 100px;
+background: linear-gradient( to left, rgb(95, 6, 117), rgb(40, 228, 15));  
+}
+.a2{
+height: 45%; ;
+width: 30%;
+background-color: rgb(57, 223, 24);
+padding: 100px;
+background: linear-gradient( to left, green, rgb(18, 161, 204));  
+}
+.a3{
+height: 45%; ;
+width: 30%;
+background-color: rgb(24, 129, 214);
+padding: 100px;
+background: linear-gradient( to left, rgb(197, 7, 181), rgb(9, 209, 126));  
+}
+.a4{
+    height: 45%; ;
+    width: 30%;
+    background-color: rgb(245, 211, 21);
+    padding: 100px;
+    background: linear-gradient( to left, rgba(248, 55, 7, 0.89), blue);  
+    }
+    
+    .a1 li{
+        background-color: darkgray;
+        line-height: 2em;
+        margin-top: 8px;
+        border-radius: 5em;
+        width: 60%;
+        padding-left: 5px;
+        height: 80px;
+        list-style-type: circle;
+        list-style-position: inside;
+        list-style-type: "\1F44D";
+    }
+
+    .a1 li:hover{
+        background-color: rgb(240, 90, 21);
+        color: rgb(214, 214, 214);
+        list-style-type: "❌";
+        width: 70%;
+        height: 70%;
+    }
+    .nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: darkgreen;
+        font-size: 70%;
+        width: 100%;
+        border: 2px solid white ;
+        text-align: center;
+        overflow: hidden;
+    }
+.nav{
+        position: sticky;
+        top: 0;
+    }
+.nav a{
+        display: block;
+        text-decoration: none;
+        color: darkblue;
+        padding: 7px 13px;
+        float: right;
+}
+
+.nav a:hover{
+        background-color: darkmagenta;
+        color: black;
+}
+
+.block5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: darkblue;
+}
+
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(60, 5, 112);
+    color: aqua;
+    padding: 15px 30px;
+    font-size: 30px;
+    text-decoration: none;
+    border:none;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0 8px 49px rgb(77, 4, 28);
+    cursor: pointer;
+}
+.btn1:hover{
+background-color: rgb(167, 14, 14);
+color: black;
+border: 2px solid black;
+box-shadow: 0px 0px 0px black;
+ }
+.btn1:active{
+    background-color: chartreuse;
+    color: darkkhaki;
+}
